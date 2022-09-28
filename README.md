@@ -1,3 +1,31 @@
+# Introduction to App
+
+## APP API resources:
+- REST: https://swapi.dev/
+- GraphQL: https://graphql.org/swapi-graphql
+
+Used REST API rather than GraphQL because backend-filtering is not available in the given GraphQL and front-end filtering is not good practice.
+
+## Online Demo
+
+Online Demo is available at [https://test-star-wars-universe.herokuapp.com/](https://test-star-wars-universe.herokuapp.com/)
+
+## Features
+
+- List of characters.
+- Lazy loading as you scrolling down the screen.
+- Filtering characters by name.
+- Viewing character details in modal dialog.
+- Responsive design from mobile to desktop. All resolutions.
+- Available for cross platforms. i.e: chrome, safari, firefox, ...
+
+## Installation
+
+- Install `npm` and `yarn` on your local machine first.
+- Run `yarn install` to install node dependencies.
+- Run `yarn start` to start app in dev environment.
+- Run `yarn build` to build app to `build` folder for production.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
